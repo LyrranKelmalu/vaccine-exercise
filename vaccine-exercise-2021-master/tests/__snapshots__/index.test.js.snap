@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`main_table.vue renders correctly 1`] = `
+<v-card
+  class="application_table"
+>
+  <h1>
+    Table with orders
+  </h1>
+   
+  <v-card-title>
+    <v-text-field
+      append-icon="mdi-magnify"
+      hide-details=""
+      label="Search"
+      single-line=""
+    />
+  </v-card-title>
+   
+  <div
+    class="cleanBtn"
+  >
+    <v-btn
+      color="error"
+      depressed=""
+      disabled="true"
+      elevation="2"
+    >
+      Clean
+    
+    </v-btn>
+  </div>
+   
+  <div>
+    <v-progress-circular
+      class="text-center"
+      color="primary"
+      indeterminate=""
+      size="70"
+      width="7"
+    />
+  </div>
+   
+  <v-simple-table
+    dense=""
+    else=""
+  />
+   
+  <v-pagination
+    length="0"
+    total-visible="7"
+    value="1"
+  />
+</v-card>
+`;
