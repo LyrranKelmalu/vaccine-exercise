@@ -8,7 +8,7 @@ npm install
 ### server login information will be sent upon request by email.
 ```
 before running next step, you need to change server info in 
-db.connection.js file:
+db_connection.js file:
 
 const con = mysql.createConnection({
       host: '217.23.6.9',
